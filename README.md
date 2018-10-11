@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+Link to deployed application: https://mysterious-river-17439.herokuapp.com
 
-* Ruby version
+Go to this link to sign up admin:https://mysterious-river-17439.herokuapp.com/admins/sign_up
+Any name of your choice, 
 
-* System dependencies
+email to login: admin1@admin.com
 
-* Configuration
+password: qwertyui
 
-* Database creation
+Then you can navigate through and you must create atleast 1 company to create realtors next. 
 
-* Database initialization
+Then you can go on sign ups and create profile of realtor via going on this link : https://mysterious-river-17439.herokuapp.com/realtors/sign_up
 
-* How to run the test suite
+You can then perform various operations on realtors 
 
-* Services (job queues, cache servers, search engines, etc.)
+You can then also check and create profile of hunters by going on this link : https://mysterious-river-17439.herokuapp.com/hunters/sign_up
 
-* Deployment instructions
+The only problem that Heroku is giving us it is not Signing Out for Admins or Realtors or Hunters because of inexplicable Heroku errors even though it runs perfectly well on the localhost:3000 site. We have used the devise Gem which handles the signups, signins and signouts perfectly well, but it seems to run into glitches on Heroku. 
 
-* ...
+If you dont want to navigate through the above links then you can to your browsers cache memory and again use the link  https://mysterious-river-17439.herokuapp.com to renter the credentials. 
